@@ -9,3 +9,8 @@
 # Documentation here: https://yarnpkg.com/features/zero-installs
 !.yarn/cache
 #.pnp.*
+
+.yarn/install-state.gz
+.yarn/build-state.yml
+
+node_modules
