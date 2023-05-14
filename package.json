@@ -3,6 +3,10 @@
   "packageManager": "yarn@3.5.1",
   "type": "module",
   "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "eslint ."
+  },
   "dependencies": {
     "mineflayer": "^4.8.1",
     "mineflayer-auto-eat": "^3.3.6"
