@@ -51,11 +51,11 @@ jobs:
           docker build . --file Dockerfile --tag image
 
       - name: Log into GHCR
-        run: echo "${{ secrets.GHCR_PAT }}" | docker login ghcr.io -u kashalls --password-stdin
+        run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.repository_owner }} --password-stdin
 
       - name: Push image to GHCR
         run: |
-          IMAGE_ID=ghcr.io/kashalls/prismarine-k8s-runner
+          IMAGE_ID=ghcr.io/${{ github.repository_owner }}/prismarine-k8s-runner
           
           # Change all uppercase to lowercase
           IMAGE_ID=$(echo $IMAGE_ID | tr '[A-Z]' '[a-z]')
