@@ -1,0 +1,4 @@
+{
+  "name": "prismarine-k8s-runner",
+  "packageManager": "yarn@3.5.1"
+}
