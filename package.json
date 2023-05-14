@@ -1,6 +1,7 @@
 {
   "name": "prismarine-k8s-runner",
   "packageManager": "yarn@3.5.1",
+  "type": "module",
   "dependencies": {
     "mineflayer": "^4.8.1"
   }
