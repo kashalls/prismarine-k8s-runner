@@ -2,7 +2,12 @@
   "name": "prismarine-k8s-runner",
   "packageManager": "yarn@3.5.1",
   "type": "module",
+  "main": "src/index.js",
   "dependencies": {
-    "mineflayer": "^4.8.1"
+    "mineflayer": "^4.8.1",
+    "mineflayer-auto-eat": "^3.3.6"
+  },
+  "peerDependencies": {
+    "minecraft-data": "*"
   }
 }

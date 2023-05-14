@@ -357,6 +357,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mineflayer-auto-eat@npm:^3.3.6":
+  version: 3.3.6
+  resolution: "mineflayer-auto-eat@npm:3.3.6"
+  checksum: 72a3a8abd129b568fc1eeeac3ba0b55de5c2d0ec3a0eb44ad9b40bd5fdc8c73281e6163ecb868e4710c63015058067d86f91164e4842bb0374b0cc0e193da38b
+  languageName: node
+  linkType: hard
+
 "mineflayer@npm:^4.8.1":
   version: 4.8.1
   resolution: "mineflayer@npm:4.8.1"
@@ -547,6 +554,9 @@ __metadata:
   resolution: "prismarine-k8s-runner@workspace:."
   dependencies:
     mineflayer: ^4.8.1
+    mineflayer-auto-eat: ^3.3.6
+  peerDependencies:
+    minecraft-data: "*"
   languageName: unknown
   linkType: soft
 
