@@ -1,7 +1,7 @@
 import * as mineflayer from 'mineflayer'
 import * as autoEat from 'mineflayer-auto-eat'
 
-const processKey = 'VSCODE_'
+const processKey = 'PRISMARINE_'
 
 const processEntries = Object.entries(process.env);
 const filteredEntries = processEntries.filter(([key]) => key.startsWith(processKey));
