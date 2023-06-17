@@ -5,15 +5,50 @@ import * as prismaviewer from 'prismarine-viewer'
 import * as minecraftData from 'minecraft-data'
 import { io } from "socket.io-client";
 
-const processKey = 'PRISMARINE_'
+console.log(process.env)
 
-const processEntries = Object.entries(process.env);
-const filteredEntries = processEntries.filter(([key]) => key.startsWith(processKey));
-const mappedEntries = filteredEntries.map(([key, value]) => [key.replace(processKey, '').toLowerCase(), value]);
-const mineflayerOptions = Object.fromEntries(mappedEntries)
 
-const bot = mineflayer.createBot(mineflayerOptions)
+
+
+const unparsedConfig = process.env.MINEFLAYER_CONFIG
+if (unparsedConfig.length === 0 || unparsedConfig.constructor !== String) {
+  throw Error('Environmental Variable \'MINEFLAYER_CONFIG\' must be a string.')
+}
+
+const config = JSON.parse(unparsedConfig)
+if (Object.keys(config).length === 0) {
+  throw Error('MINEFLAYER_CONFIG is empty.')
+}
+
+const bot = mineflayer.createBot(config)
+bot.loadPlugin(pathfinder.pathfinder)
 bot.loadPlugin(autoEat.plugin)
+
+bot.on('spawn', () => {
+  prismaviewer(bot, { port: 3060 })
+
+  bot.on('path_update', (r) => {
+    const nodesPerTick = (r.visitedNodes * 50 / r.time).toFixed(2)
+    console.log(`I can get there in ${r.path.length} moves. Computation took ${r.time.toFixed(2)} ms (${nodesPerTick} nodes/tick). ${r.status}`)
+    const path = [bot.entity.position.offset(0, 0.5, 0)]
+    for (const node of r.path) {
+      path.push({ x: node.x, y: node.y + 0.5, z: node.z })
+    }
+    bot.viewer.drawLine('path', path, 0xff00ff)
+  })
+
+  const mcData = minecraftData(bot.version)
+  const defaultMove = new Movements(bot, mcData)
+
+  bot.viewer.on('blockClicked', (block, face, button) => {
+    if (button !== 2) return // only right click
+
+    const p = block.position.offset(0, 1, 0)
+
+    bot.pathfinder.setMovements(defaultMove)
+    bot.pathfinder.setGoal(new GoalBlock(p.x, p.y, p.z))
+  })
+})
 
 bot.on('message', (message) => {
   console.log(message.toAnsi())
