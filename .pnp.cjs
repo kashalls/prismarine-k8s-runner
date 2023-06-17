@@ -29,6 +29,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["eslint", "npm:8.43.0"],\
+            ["minecraft-data", "npm:3.36.1"],\
             ["mineflayer", "npm:4.9.0"],\
             ["mineflayer-auto-eat", "npm:3.3.6"],\
             ["mineflayer-pathfinder", "npm:2.4.4"],\
@@ -2132,6 +2133,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["prismarine-k8s-runner", "workspace:."],\
             ["eslint", "npm:8.43.0"],\
+            ["minecraft-data", "npm:3.36.1"],\
             ["mineflayer", "npm:4.9.0"],\
             ["mineflayer-auto-eat", "npm:3.3.6"],\
             ["mineflayer-pathfinder", "npm:2.4.4"],\

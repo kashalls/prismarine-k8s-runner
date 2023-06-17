@@ -1315,7 +1315,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minecraft-data@npm:^3.34.0, minecraft-data@npm:^3.5.1":
+"minecraft-data@npm:^3.34.0, minecraft-data@npm:^3.36.1, minecraft-data@npm:^3.5.1":
   version: 3.36.1
   resolution: "minecraft-data@npm:3.36.1"
   checksum: 911c052cec83a64e5e18317fc6068b0ed99d64d05cd60c79389320631b5a281e80a0f4b9ecb722d72ff67288dda88f183b584fcd030fdab8907cfdd1ecf8d512
@@ -1745,13 +1745,12 @@ __metadata:
   resolution: "prismarine-k8s-runner@workspace:."
   dependencies:
     eslint: ^8.40.0
+    minecraft-data: ^3.36.1
     mineflayer: ^4.8.1
     mineflayer-auto-eat: ^3.3.6
     mineflayer-pathfinder: ^2.4.4
     prismarine-viewer: ^1.25.0
     socket.io-client: ^4.6.2
-  peerDependencies:
-    minecraft-data: "*"
   languageName: unknown
   linkType: soft
 
