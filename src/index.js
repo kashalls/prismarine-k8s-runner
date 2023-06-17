@@ -1,5 +1,9 @@
 import * as mineflayer from 'mineflayer'
 import * as autoEat from 'mineflayer-auto-eat'
+import * as pathfinder from 'mineflayer-pathfinder'
+import * as prismaviewer from 'prismarine-viewer'
+import * as minecraftData from 'minecraft-data'
+import { io } from "socket.io-client";
 
 const processKey = 'PRISMARINE_'
 

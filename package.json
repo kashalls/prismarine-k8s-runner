@@ -9,7 +9,10 @@
   },
   "dependencies": {
     "mineflayer": "^4.8.1",
-    "mineflayer-auto-eat": "^3.3.6"
+    "mineflayer-auto-eat": "^3.3.6",
+    "mineflayer-pathfinder": "^2.4.4",
+    "prismarine-viewer": "^1.25.0",
+    "socket.io-client": "^4.6.2"
   },
   "peerDependencies": {
     "minecraft-data": "*"
