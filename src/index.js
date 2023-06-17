@@ -4,14 +4,12 @@ import * as pathfinder from 'mineflayer-pathfinder'
 import * as prismaviewer from 'prismarine-viewer'
 import * as minecraftData from 'minecraft-data'
 import { io } from "socket.io-client";
-
+import os from 'node:os'
 console.log(process.env)
-
-
-
+console.log(os.networkInterfaces())
 
 const unparsedConfig = process.env.MINEFLAYER_CONFIG
-if (unparsedConfig.length === 0 || unparsedConfig.constructor !== String) {
+if (unparsedConfig.constructor !== String || unparsedConfig.length === 0 ) {
   throw Error('Environmental Variable \'MINEFLAYER_CONFIG\' must be a string.')
 }
 
