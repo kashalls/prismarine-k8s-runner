@@ -6,7 +6,13 @@ import * as minecraftData from 'minecraft-data'
 import { io } from "socket.io-client";
 import os from 'node:os'
 console.log(process.env)
-console.log(os.networkInterfaces())
+
+async function whatismyip() {
+  const ranges = os.networkInterfaces()
+  return ranges['eth0'].find((int) => int.internal === false && int.family === 'IPv4').address
+}
+
+console.log(`My IP Is: ${whatismyip}`)
 
 const unparsedConfig = process.env.MINEFLAYER_CONFIG
 if (unparsedConfig.constructor !== String || unparsedConfig.length === 0 ) {
