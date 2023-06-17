@@ -1751,6 +1751,7 @@ __metadata:
     mineflayer-pathfinder: ^2.4.4
     prismarine-viewer: ^1.25.0
     socket.io-client: ^4.6.2
+    three: ^0.153.0
   languageName: unknown
   linkType: soft
 
@@ -2216,6 +2217,13 @@ __metadata:
   version: 0.128.0
   resolution: "three@npm:0.128.0"
   checksum: 94d2b0e0ab1093acbc97e7de2ba38073f0479d2285f5ec333d1f900f1bf8c6a435f5815f24678f38a9898fc1ca39595a0c865cf83b3ce9c4164bba3393108dd3
+  languageName: node
+  linkType: hard
+
+"three@npm:^0.153.0":
+  version: 0.153.0
+  resolution: "three@npm:0.153.0"
+  checksum: 68899ca90e048967a83866a1d54a9d28bba3532d228ede9e4c2a3b9bec347c31d8bb633eeaf7828397d2419cded8f57cf32f2a9c037a3587d45122e793ddc0c4
   languageName: node
   linkType: hard
 

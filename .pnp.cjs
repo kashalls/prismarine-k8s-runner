@@ -34,7 +34,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mineflayer-auto-eat", "npm:3.3.6"],\
             ["mineflayer-pathfinder", "npm:2.4.4"],\
             ["prismarine-viewer", "npm:1.25.0"],\
-            ["socket.io-client", "npm:4.6.2"]\
+            ["socket.io-client", "npm:4.6.2"],\
+            ["three", "npm:0.153.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -2138,7 +2139,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mineflayer-auto-eat", "npm:3.3.6"],\
             ["mineflayer-pathfinder", "npm:2.4.4"],\
             ["prismarine-viewer", "npm:1.25.0"],\
-            ["socket.io-client", "npm:4.6.2"]\
+            ["socket.io-client", "npm:4.6.2"],\
+            ["three", "npm:0.153.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -2665,6 +2667,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/three-npm-0.128.0-e3770cfa25-94d2b0e0ab.zip/node_modules/three/",\
           "packageDependencies": [\
             ["three", "npm:0.128.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:0.153.0", {\
+          "packageLocation": "./.yarn/cache/three-npm-0.153.0-078c985b99-68899ca90e.zip/node_modules/three/",\
+          "packageDependencies": [\
+            ["three", "npm:0.153.0"]\
           ],\
           "linkType": "HARD"\
         }]\
