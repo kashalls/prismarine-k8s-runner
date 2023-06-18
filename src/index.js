@@ -26,7 +26,7 @@ bot.loadPlugin(pathfinder.pathfinder)
 bot.loadPlugin(autoEat.plugin)
 
 bot.on('spawn', () => {
-  prismaviewer(bot, { port: 3060 })
+  prismaviewer.mineflayer(bot, { port: 3060 })
 
   bot.on('path_update', (r) => {
     const nodesPerTick = (r.visitedNodes * 50 / r.time).toFixed(2)
