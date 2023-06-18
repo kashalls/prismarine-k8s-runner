@@ -1,6 +1,6 @@
 import * as mineflayer from 'mineflayer'
 import * as autoEat from 'mineflayer-auto-eat'
-import { Movements, pathfinder } from 'mineflayer-pathfinder'
+import { Movements, pathfinder, GoalBlock } from 'mineflayer-pathfinder'
 import { mineflayer as mineflayerViewer } from 'prismarine-viewer'
 import mcdata from 'minecraft-data'
 import { io } from "socket.io-client";
