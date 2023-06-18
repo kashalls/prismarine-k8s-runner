@@ -5,13 +5,9 @@ import * as prismaviewer from 'prismarine-viewer'
 import * as minecraftData from 'minecraft-data'
 import { io } from "socket.io-client";
 import os from 'node:os'
+
+const whatismyip = () => os.networkInterfaces()['eth0'].find((int) => int.internal === false && int.family === 'IPv4').address
 console.log(process.env)
-
-async function whatismyip() {
-  const ranges = os.networkInterfaces()
-  return ranges['eth0'].find((int) => int.internal === false && int.family === 'IPv4').address
-}
-
 console.log(`My IP Is: ${whatismyip()}`)
 
 const unparsedConfig = process.env.MINEFLAYER_CONFIG
