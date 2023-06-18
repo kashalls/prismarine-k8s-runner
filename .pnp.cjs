@@ -35,7 +35,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mineflayer-pathfinder", "npm:2.4.4"],\
             ["prismarine-viewer", "npm:1.25.0"],\
             ["socket.io-client", "npm:4.6.2"],\
-            ["three", "npm:0.153.0"]\
+            ["three", "npm:0.153.0"],\
+            ["uuid", "npm:9.0.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -2140,7 +2141,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mineflayer-pathfinder", "npm:2.4.4"],\
             ["prismarine-viewer", "npm:1.25.0"],\
             ["socket.io-client", "npm:4.6.2"],\
-            ["three", "npm:0.153.0"]\
+            ["three", "npm:0.153.0"],\
+            ["uuid", "npm:9.0.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -2795,6 +2797,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/uuid-npm-8.3.2-eca0baba53-5575a8a75c.zip/node_modules/uuid/",\
           "packageDependencies": [\
             ["uuid", "npm:8.3.2"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:9.0.0", {\
+          "packageLocation": "./.yarn/cache/uuid-npm-9.0.0-46c41e3e43-8dd2c83c43.zip/node_modules/uuid/",\
+          "packageDependencies": [\
+            ["uuid", "npm:9.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
