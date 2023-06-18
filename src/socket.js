@@ -1,6 +1,6 @@
 import { io } from 'socket.io-client'
 
-const socket = io(`wss://${process.env.CONTROLLER_HOST}:${process.env.CONTROLLER_PORT}/runners/ws`)
+const socket = io(`wss://${process.env.CONTROLLER_HOST}:${process.env.CONTROLLER_PORT}/runner`)
 export default socket;
 
 // client-side
