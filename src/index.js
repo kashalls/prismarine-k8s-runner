@@ -54,3 +54,8 @@ bot.on('spawn', () => {
 bot.on('message', (message) => {
   console.log(message.toAnsi())
 })
+
+bot.on('err', (err) => {
+  console.log(err)
+  process.exit(1)
+})
