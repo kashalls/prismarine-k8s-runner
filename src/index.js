@@ -12,7 +12,7 @@ async function whatismyip() {
   return ranges['eth0'].find((int) => int.internal === false && int.family === 'IPv4').address
 }
 
-console.log(`My IP Is: ${whatismyip}`)
+console.log(`My IP Is: ${whatismyip()}`)
 
 const unparsedConfig = process.env.MINEFLAYER_CONFIG
 if (unparsedConfig.constructor !== String || unparsedConfig.length === 0 ) {
@@ -20,6 +20,7 @@ if (unparsedConfig.constructor !== String || unparsedConfig.length === 0 ) {
 }
 
 const config = JSON.parse(unparsedConfig)
+console.log(config)
 if (Object.keys(config).length === 0) {
   throw Error('MINEFLAYER_CONFIG is empty.')
 }
