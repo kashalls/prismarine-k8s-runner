@@ -1,10 +1,12 @@
 import * as mineflayer from 'mineflayer'
 import * as autoEat from 'mineflayer-auto-eat'
-import { Movements, pathfinder, GoalBlock } from 'mineflayer-pathfinder'
+import g, { Movements, pathfinder } from 'mineflayer-pathfinder'
 import { mineflayer as mineflayerViewer } from 'prismarine-viewer'
 import mcdata from 'minecraft-data'
 import { io } from "socket.io-client";
 import os from 'node:os'
+
+const GoalBlock = g.goals.GoalBlock
 
 const whatismyip = () => os.networkInterfaces()['eth0'].find((int) => int.internal === false && int.family === 'IPv4').address
 console.log(process.env)
