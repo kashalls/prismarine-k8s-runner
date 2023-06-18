@@ -1,14 +1,14 @@
 import * as mineflayer from 'mineflayer'
 import * as autoEat from 'mineflayer-auto-eat'
-import * as pathfinder from 'mineflayer-pathfinder'
-import * as prismaviewer from 'prismarine-viewer'
-import * as minecraftData from 'minecraft-data'
+import { Movements, pathfinder } from 'mineflayer-pathfinder'
+import { mineflayer as mineflayerViewer } from 'prismarine-viewer'
+import mcdata from 'minecraft-data'
 import { io } from "socket.io-client";
 import os from 'node:os'
 
 const whatismyip = () => os.networkInterfaces()['eth0'].find((int) => int.internal === false && int.family === 'IPv4').address
 console.log(process.env)
-console.log(`My IP Is: ${whatismyip()}`)
+console.log(`My IP Is ${whatismyip()}`)
 
 const unparsedConfig = process.env.MINEFLAYER_CONFIG
 if (unparsedConfig.constructor !== String || unparsedConfig.length === 0 ) {
@@ -22,11 +22,11 @@ if (Object.keys(config).length === 0) {
 }
 
 const bot = mineflayer.createBot(config)
-bot.loadPlugin(pathfinder.pathfinder)
+bot.loadPlugin(pathfinder)
 bot.loadPlugin(autoEat.plugin)
 
 bot.on('spawn', () => {
-  prismaviewer.mineflayer(bot, { port: 3060 })
+  mineflayerViewer(bot, { port: 3060 })
 
   bot.on('path_update', (r) => {
     const nodesPerTick = (r.visitedNodes * 50 / r.time).toFixed(2)
@@ -38,7 +38,7 @@ bot.on('spawn', () => {
     bot.viewer.drawLine('path', path, 0xff00ff)
   })
 
-  const mcData = minecraftData(bot.version)
+  const mcData = mcdata(bot.version)
   const defaultMove = new Movements(bot, mcData)
 
   bot.viewer.on('blockClicked', (block, face, button) => {
