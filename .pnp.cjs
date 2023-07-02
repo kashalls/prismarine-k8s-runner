@@ -34,7 +34,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mineflayer-auto-eat", "npm:3.3.6"],\
             ["mineflayer-pathfinder", "npm:2.4.4"],\
             ["prismarine-viewer", "npm:1.25.0"],\
-            ["socket.io-client", "npm:4.7.0"],\
+            ["socket.io-client", "npm:4.7.1"],\
             ["three", "npm:0.154.0"],\
             ["uuid", "npm:9.0.0"]\
           ],\
@@ -811,20 +811,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["cors", "npm:2.8.5"],\
             ["debug", "virtual:352060d453a801a0fd16b073afb56a2607e33f96a5ff7faf9351853a737843ea6ad854442954d36ef1f89461751ed94f005ea67c746b39723d1da041a244f7d2#npm:4.3.4"],\
             ["engine.io-parser", "npm:5.0.7"],\
-            ["ws", "virtual:6f22ebb8cd8be1c59f58795805d5fbaa6a36507a218afe39b99a00365d8ec70c75d8577360b375108f2aa936aed284117567a6d7eab87ad458d8ac50701a6055#npm:8.11.0"]\
+            ["ws", "virtual:a0347ac91dfdf7128c2d0eb447b00d2dcd76e5fb370375823e81e99bb1e2820a3931f357fb22b9b25c19d95ed14931b2b929538aca9acf8b95c1e64563ceca61#npm:8.11.0"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["engine.io-client", [\
-        ["npm:6.5.0", {\
-          "packageLocation": "./.yarn/cache/engine.io-client-npm-6.5.0-6f22ebb8cd-280435a93d.zip/node_modules/engine.io-client/",\
+        ["npm:6.5.1", {\
+          "packageLocation": "./.yarn/cache/engine.io-client-npm-6.5.1-a0347ac91d-411a4f1d2e.zip/node_modules/engine.io-client/",\
           "packageDependencies": [\
-            ["engine.io-client", "npm:6.5.0"],\
+            ["engine.io-client", "npm:6.5.1"],\
             ["@socket.io/component-emitter", "npm:3.1.0"],\
             ["debug", "virtual:352060d453a801a0fd16b073afb56a2607e33f96a5ff7faf9351853a737843ea6ad854442954d36ef1f89461751ed94f005ea67c746b39723d1da041a244f7d2#npm:4.3.4"],\
             ["engine.io-parser", "npm:5.1.0"],\
-            ["ws", "virtual:6f22ebb8cd8be1c59f58795805d5fbaa6a36507a218afe39b99a00365d8ec70c75d8577360b375108f2aa936aed284117567a6d7eab87ad458d8ac50701a6055#npm:8.11.0"],\
+            ["ws", "virtual:a0347ac91dfdf7128c2d0eb447b00d2dcd76e5fb370375823e81e99bb1e2820a3931f357fb22b9b25c19d95ed14931b2b929538aca9acf8b95c1e64563ceca61#npm:8.11.0"],\
             ["xmlhttprequest-ssl", "npm:2.0.0"]\
           ],\
           "linkType": "HARD"\
@@ -2186,7 +2186,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mineflayer-auto-eat", "npm:3.3.6"],\
             ["mineflayer-pathfinder", "npm:2.4.4"],\
             ["prismarine-viewer", "npm:1.25.0"],\
-            ["socket.io-client", "npm:4.7.0"],\
+            ["socket.io-client", "npm:4.7.1"],\
             ["three", "npm:0.154.0"],\
             ["uuid", "npm:9.0.0"]\
           ],\
@@ -2282,7 +2282,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prismarine-chunk", "npm:1.33.1"],\
             ["prismarine-world", "npm:3.6.2"],\
             ["socket.io", "npm:4.6.2"],\
-            ["socket.io-client", "npm:4.7.0"],\
+            ["socket.io-client", "npm:4.7.1"],\
             ["three", "npm:0.128.0"],\
             ["three.meshline", "npm:1.4.0"],\
             ["vec3", "npm:0.1.8"]\
@@ -2634,19 +2634,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/socket.io-adapter-npm-2.5.2-3456682203-481251c354.zip/node_modules/socket.io-adapter/",\
           "packageDependencies": [\
             ["socket.io-adapter", "npm:2.5.2"],\
-            ["ws", "virtual:6f22ebb8cd8be1c59f58795805d5fbaa6a36507a218afe39b99a00365d8ec70c75d8577360b375108f2aa936aed284117567a6d7eab87ad458d8ac50701a6055#npm:8.11.0"]\
+            ["ws", "virtual:a0347ac91dfdf7128c2d0eb447b00d2dcd76e5fb370375823e81e99bb1e2820a3931f357fb22b9b25c19d95ed14931b2b929538aca9acf8b95c1e64563ceca61#npm:8.11.0"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["socket.io-client", [\
-        ["npm:4.7.0", {\
-          "packageLocation": "./.yarn/cache/socket.io-client-npm-4.7.0-df8330ee4f-bcc0c7959e.zip/node_modules/socket.io-client/",\
+        ["npm:4.7.1", {\
+          "packageLocation": "./.yarn/cache/socket.io-client-npm-4.7.1-4392658b2f-5e606ebe01.zip/node_modules/socket.io-client/",\
           "packageDependencies": [\
-            ["socket.io-client", "npm:4.7.0"],\
+            ["socket.io-client", "npm:4.7.1"],\
             ["@socket.io/component-emitter", "npm:3.1.0"],\
             ["debug", "virtual:352060d453a801a0fd16b073afb56a2607e33f96a5ff7faf9351853a737843ea6ad854442954d36ef1f89461751ed94f005ea67c746b39723d1da041a244f7d2#npm:4.3.4"],\
-            ["engine.io-client", "npm:6.5.0"],\
+            ["engine.io-client", "npm:6.5.1"],\
             ["socket.io-parser", "npm:4.2.4"]\
           ],\
           "linkType": "HARD"\
@@ -2939,10 +2939,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:6f22ebb8cd8be1c59f58795805d5fbaa6a36507a218afe39b99a00365d8ec70c75d8577360b375108f2aa936aed284117567a6d7eab87ad458d8ac50701a6055#npm:8.11.0", {\
-          "packageLocation": "./.yarn/__virtual__/ws-virtual-94b308c1dd/0/cache/ws-npm-8.11.0-ab72116a01-316b33aba3.zip/node_modules/ws/",\
+        ["virtual:a0347ac91dfdf7128c2d0eb447b00d2dcd76e5fb370375823e81e99bb1e2820a3931f357fb22b9b25c19d95ed14931b2b929538aca9acf8b95c1e64563ceca61#npm:8.11.0", {\
+          "packageLocation": "./.yarn/__virtual__/ws-virtual-4b71466250/0/cache/ws-npm-8.11.0-ab72116a01-316b33aba3.zip/node_modules/ws/",\
           "packageDependencies": [\
-            ["ws", "virtual:6f22ebb8cd8be1c59f58795805d5fbaa6a36507a218afe39b99a00365d8ec70c75d8577360b375108f2aa936aed284117567a6d7eab87ad458d8ac50701a6055#npm:8.11.0"],\
+            ["ws", "virtual:a0347ac91dfdf7128c2d0eb447b00d2dcd76e5fb370375823e81e99bb1e2820a3931f357fb22b9b25c19d95ed14931b2b929538aca9acf8b95c1e64563ceca61#npm:8.11.0"],\
             ["@types/bufferutil", null],\
             ["@types/utf-8-validate", null],\
             ["bufferutil", null],\
@@ -11685,7 +11685,6 @@ function reportRequiredFilesToWatchMode(files) {
 }
 
 function applyPatch(pnpapi, opts) {
-  const defaultCache = {};
   let enableNativeHooks = true;
   process.versions.pnp = String(pnpapi.VERSIONS.std);
   const moduleExports = require$$0__default.default;
@@ -11705,62 +11704,13 @@ function applyPatch(pnpapi, opts) {
   }
   const originalModuleLoad = require$$0.Module._load;
   require$$0.Module._load = function(request, parent, isMain) {
-    if (!enableNativeHooks)
-      return originalModuleLoad.call(require$$0.Module, request, parent, isMain);
-    if (isBuiltinModule(request)) {
-      try {
-        enableNativeHooks = false;
-        return originalModuleLoad.call(require$$0.Module, request, parent, isMain);
-      } finally {
-        enableNativeHooks = true;
+    if (request === `pnpapi`) {
+      const parentApiPath = opts.manager.getApiPathFromParent(parent);
+      if (parentApiPath) {
+        return opts.manager.getApiEntry(parentApiPath, true).instance;
       }
     }
-    const parentApiPath = opts.manager.getApiPathFromParent(parent);
-    const parentApi = parentApiPath !== null ? opts.manager.getApiEntry(parentApiPath, true).instance : null;
-    if (parentApi === null)
-      return originalModuleLoad(request, parent, isMain);
-    if (request === `pnpapi`)
-      return parentApi;
-    const modulePath = require$$0.Module._resolveFilename(request, parent, isMain);
-    const isOwnedByRuntime = parentApi !== null ? parentApi.findPackageLocator(modulePath) !== null : false;
-    const moduleApiPath = isOwnedByRuntime ? parentApiPath : opts.manager.findApiPathFor(npath.dirname(modulePath));
-    const entry = moduleApiPath !== null ? opts.manager.getApiEntry(moduleApiPath) : { instance: null, cache: defaultCache };
-    const cacheEntry = entry.cache[modulePath];
-    if (cacheEntry) {
-      if (cacheEntry.loaded === false && cacheEntry.isLoading !== true) {
-        try {
-          cacheEntry.isLoading = true;
-          if (isMain) {
-            process.mainModule = cacheEntry;
-            cacheEntry.id = `.`;
-          }
-          cacheEntry.load(modulePath);
-        } finally {
-          cacheEntry.isLoading = false;
-        }
-      }
-      return cacheEntry.exports;
-    }
-    const module = new require$$0.Module(modulePath, parent != null ? parent : void 0);
-    module.pnpApiPath = moduleApiPath;
-    reportRequiredFilesToWatchMode([modulePath]);
-    entry.cache[modulePath] = module;
-    if (isMain) {
-      process.mainModule = module;
-      module.id = `.`;
-    }
-    let hasThrown = true;
-    try {
-      module.isLoading = true;
-      module.load(modulePath);
-      hasThrown = false;
-    } finally {
-      module.isLoading = false;
-      if (hasThrown) {
-        delete require$$0.Module._cache[modulePath];
-      }
-    }
-    return module.exports;
+    return originalModuleLoad.call(require$$0.Module, request, parent, isMain);
   };
   function getIssuerSpecsFromPaths(paths) {
     return paths.map((path) => ({
@@ -11828,7 +11778,7 @@ function applyPatch(pnpapi, opts) {
       const parentDirectory = (parent == null ? void 0 : parent.filename) != null ? npath.dirname(parent.filename) : null;
       const absoluteRequest = npath.isAbsolute(request) ? request : parentDirectory !== null ? npath.resolve(parentDirectory, request) : null;
       if (absoluteRequest !== null) {
-        const apiPath = parentDirectory === npath.dirname(absoluteRequest) && (parent == null ? void 0 : parent.pnpApiPath) ? parent.pnpApiPath : opts.manager.findApiPathFor(absoluteRequest);
+        const apiPath = parent && parentDirectory === npath.dirname(absoluteRequest) ? opts.manager.getApiPathFromParent(parent) : opts.manager.findApiPathFor(absoluteRequest);
         if (apiPath !== null) {
           issuerSpecs.unshift({
             apiPath,
@@ -13549,7 +13499,6 @@ function makeManager(pnpapi, opts) {
   const initialApiStats = opts.fakeFs.statSync(npath.toPortablePath(initialApiPath));
   const apiMetadata = /* @__PURE__ */ new Map([
     [initialApiPath, {
-      cache: require$$0.Module._cache,
       instance: pnpapi,
       stats: initialApiStats,
       lastRefreshCheck: Date.now()
@@ -13581,7 +13530,6 @@ function makeManager(pnpapi, opts) {
       }
     } else {
       apiMetadata.set(pnpApiPath, apiEntry = {
-        cache: {},
         instance: loadApiInstance(pnpApiPath),
         stats: opts.fakeFs.statSync(pnpApiPath),
         lastRefreshCheck: Date.now()
@@ -13651,19 +13599,16 @@ ${controlSegment}
     } while (curr !== PortablePath.root);
     return addToCacheAndReturn(start, curr, null);
   }
+  const moduleToApiPathCache = /* @__PURE__ */ new WeakMap();
   function getApiPathFromParent(parent) {
     if (parent == null)
       return initialApiPath;
-    if (typeof parent.pnpApiPath === `undefined`) {
-      if (parent.filename !== null) {
-        return parent.pnpApiPath = findApiPathFor(parent.filename);
-      } else {
-        return initialApiPath;
-      }
-    }
-    if (parent.pnpApiPath !== null)
-      return parent.pnpApiPath;
-    return null;
+    let apiPath = moduleToApiPathCache.get(parent);
+    if (typeof apiPath !== `undefined`)
+      return apiPath;
+    apiPath = parent.filename ? findApiPathFor(parent.filename) : null;
+    moduleToApiPathCache.set(parent, apiPath);
+    return apiPath;
   }
   return {
     getApiPathFromParent,
