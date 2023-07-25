@@ -3,44 +3,25 @@ import * as autoEat from 'mineflayer-auto-eat'
 import g, { Movements, pathfinder } from 'mineflayer-pathfinder'
 import { mineflayer as mineflayerViewer } from 'prismarine-viewer'
 import mcdata from 'minecraft-data'
-import os from 'node:os'
-import { v4 as uuid } from 'uuid'
 
-import socket from './socket.js'
+import { send } from './utils/Socket/Socket.js'
+import { parseConfig } from './utils/Utils.js'
+import MongoCache, { client } from './utils/MongoCache.js'
 
 const GoalBlock = g.goals.GoalBlock
 
-const info = {
-  ip: os.networkInterfaces()['eth0'].find((ip) => ip.internal === false && ip.family === 'IPv4').address,
-  podId: uuid(),
-  controller: {
-    host: process.env.CONTROLLER_HOST,
-    port: process.env.CONTROLLER_PORT || 8999,
-  },
-  viewer: {
-    port: process.env.VIEWER_PORT || 3060
-  },
-}
-
 console.log(process.env, info)
-const unparsedConfig = process.env.MINEFLAYER_CONFIG
-if (unparsedConfig.constructor !== String || unparsedConfig.length === 0 ) {
-  throw Error('Environmental Variable \'MINEFLAYER_CONFIG\' must be a string.')
-}
+const config = parseConfig()
 
-const config = JSON.parse(unparsedConfig)
-console.log(`Mineflayer Config: ${config}`)
-if (Object.keys(config).length === 0) {
-  throw Error('MINEFLAYER_CONFIG is empty.')
-}
+(async () => await client.connect())
 
-const bot = mineflayer.createBot(config)
+const bot = mineflayer.createBot({ ...config, profilesFolder: (cache) => new MongoCache(cache) })
 bot.loadPlugin(pathfinder)
 bot.loadPlugin(autoEat.plugin)
 
 bot.on('spawn', () => {
-  socket.emit('bot-data', info)
-  mineflayerViewer(bot, { port: info.viewer.port })
+  socket.emit('botinfo', info)
+  mineflayerViewer(bot, { port: 8080 })
 
   bot.on('path_update', (r) => {
     const nodesPerTick = (r.visitedNodes * 50 / r.time).toFixed(2)
@@ -68,6 +49,7 @@ bot.on('spawn', () => {
 
 bot.on('message', (message) => {
   console.log(message.toAnsi())
+  socket.broadcast(message)
 })
 
 bot.on('err', (err) => {
