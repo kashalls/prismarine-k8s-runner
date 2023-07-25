@@ -58,11 +58,10 @@ ws.on('message', (rawData) => {
 
 export function send (message) {
   if (isNotObject(message)) {
-    const parsed = tryParseJSON(message)
-    if (!parsed) {
+    message = tryParseJSON(message)
+    if (!message) {
       return console.log('Cannot send non-valid json. Canceling.')
     }
-    return ws.send(JSON.stringify(parsed))
   }
-  return ws.send(JSON.stringify(message))
+  return ws.send(JSON.stringify({ ...Constants.Message, d: message }))
 }

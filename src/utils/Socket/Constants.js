@@ -8,3 +8,7 @@ export const Authorization = {
     k: process.env.SHARED_KEY
   }
 }
+
+export const Message = {
+  op: 0
+}
