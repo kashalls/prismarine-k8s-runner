@@ -1,6 +1,6 @@
 {
   "name": "prismarine-k8s-runner",
-  "packageManager": "yarn@3.6.1",
+  "packageManager": "yarn@3.6.3",
   "type": "module",
   "main": "src/index.js",
   "scripts": {
