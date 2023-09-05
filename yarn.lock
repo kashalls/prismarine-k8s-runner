@@ -1408,8 +1408,8 @@ __metadata:
   linkType: hard
 
 "mineflayer-pathfinder@npm:^2.4.4":
-  version: 2.4.4
-  resolution: "mineflayer-pathfinder@npm:2.4.4"
+  version: 2.4.5
+  resolution: "mineflayer-pathfinder@npm:2.4.5"
   dependencies:
     minecraft-data: ^3.5.1
     prismarine-block: ^1.16.3
@@ -1418,7 +1418,7 @@ __metadata:
     prismarine-nbt: ^2.2.1
     prismarine-physics: ^1.5.2
     vec3: ^0.1.7
-  checksum: a2f21151d15af8407c24da5383b5ab35a286c50a775a24732943e7126d590ac761fd0c1d704d3d4f770c9dc488d3d4b3d5914433a6854dbbcb5e4a82640650ac
+  checksum: 8bf991053fca1d7e5ba212fd67e1f3e96f6b0fa21f4169de48c4f31a8781c704f6712a38cc585f5d555f16e43473a890e9ab638fbdd985d29eb3833cf5ba3046
   languageName: node
   linkType: hard
 

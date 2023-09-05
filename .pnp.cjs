@@ -32,7 +32,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["minecraft-data", "npm:3.45.0"],\
             ["mineflayer", "npm:4.14.0"],\
             ["mineflayer-auto-eat", "npm:3.3.6"],\
-            ["mineflayer-pathfinder", "npm:2.4.4"],\
+            ["mineflayer-pathfinder", "npm:2.4.5"],\
             ["mongodb", "virtual:4b4f30f3a689557ce4d5338c8e2677d1d4fc0f368b1e3bbfd34248f234b5b89d5ec14f2829ca0f979d88b034ff21d008c50d5a7a70156e1125803091385bacd0#npm:6.0.0"],\
             ["prismarine-auth", "npm:2.2.0"],\
             ["prismarine-viewer", "npm:1.25.0"],\
@@ -1756,10 +1756,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["mineflayer-pathfinder", [\
-        ["npm:2.4.4", {\
-          "packageLocation": "./.yarn/cache/mineflayer-pathfinder-npm-2.4.4-0ddbef3142-a2f21151d1.zip/node_modules/mineflayer-pathfinder/",\
+        ["npm:2.4.5", {\
+          "packageLocation": "./.yarn/cache/mineflayer-pathfinder-npm-2.4.5-53226c4394-8bf991053f.zip/node_modules/mineflayer-pathfinder/",\
           "packageDependencies": [\
-            ["mineflayer-pathfinder", "npm:2.4.4"],\
+            ["mineflayer-pathfinder", "npm:2.4.5"],\
             ["minecraft-data", "npm:3.45.0"],\
             ["prismarine-block", "npm:1.16.3"],\
             ["prismarine-entity", "npm:2.2.0"],\
@@ -2288,7 +2288,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["minecraft-data", "npm:3.45.0"],\
             ["mineflayer", "npm:4.14.0"],\
             ["mineflayer-auto-eat", "npm:3.3.6"],\
-            ["mineflayer-pathfinder", "npm:2.4.4"],\
+            ["mineflayer-pathfinder", "npm:2.4.5"],\
             ["mongodb", "virtual:4b4f30f3a689557ce4d5338c8e2677d1d4fc0f368b1e3bbfd34248f234b5b89d5ec14f2829ca0f979d88b034ff21d008c50d5a7a70156e1125803091385bacd0#npm:6.0.0"],\
             ["prismarine-auth", "npm:2.2.0"],\
             ["prismarine-viewer", "npm:1.25.0"],\
