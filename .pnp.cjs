@@ -33,7 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mineflayer", "npm:4.14.0"],\
             ["mineflayer-auto-eat", "npm:3.3.6"],\
             ["mineflayer-pathfinder", "npm:2.4.4"],\
-            ["mongodb", "virtual:4b4f30f3a689557ce4d5338c8e2677d1d4fc0f368b1e3bbfd34248f234b5b89d5ec14f2829ca0f979d88b034ff21d008c50d5a7a70156e1125803091385bacd0#npm:5.8.1"],\
+            ["mongodb", "virtual:4b4f30f3a689557ce4d5338c8e2677d1d4fc0f368b1e3bbfd34248f234b5b89d5ec14f2829ca0f979d88b034ff21d008c50d5a7a70156e1125803091385bacd0#npm:6.0.0"],\
             ["prismarine-auth", "npm:2.2.0"],\
             ["prismarine-viewer", "npm:1.25.0"],\
             ["socket.io-client", "npm:4.7.2"],\
@@ -497,10 +497,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["bson", [\
-        ["npm:5.4.0", {\
-          "packageLocation": "./.yarn/cache/bson-npm-5.4.0-2f854c8216-1c07e3d09f.zip/node_modules/bson/",\
+        ["npm:6.0.0", {\
+          "packageLocation": "./.yarn/cache/bson-npm-6.0.0-7b3cba060e-594ebbfcae.zip/node_modules/bson/",\
           "packageDependencies": [\
-            ["bson", "npm:5.4.0"]\
+            ["bson", "npm:6.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1416,15 +1416,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["ip", [\
-        ["npm:2.0.0", {\
-          "packageLocation": "./.yarn/cache/ip-npm-2.0.0-204facb3cc-cfcfac6b87.zip/node_modules/ip/",\
-          "packageDependencies": [\
-            ["ip", "npm:2.0.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["ipaddr.js", [\
         ["npm:1.9.1", {\
           "packageLocation": "./.yarn/cache/ipaddr.js-npm-1.9.1-19ae7878b4-f88d382598.zip/node_modules/ipaddr.js/",\
@@ -1808,43 +1799,50 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["mongodb", [\
-        ["npm:5.8.1", {\
-          "packageLocation": "./.yarn/cache/mongodb-npm-5.8.1-d655990b24-da8fc05952.zip/node_modules/mongodb/",\
+        ["npm:6.0.0", {\
+          "packageLocation": "./.yarn/cache/mongodb-npm-6.0.0-7c1e74de91-0399d12977.zip/node_modules/mongodb/",\
           "packageDependencies": [\
-            ["mongodb", "npm:5.8.1"]\
+            ["mongodb", "npm:6.0.0"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:4b4f30f3a689557ce4d5338c8e2677d1d4fc0f368b1e3bbfd34248f234b5b89d5ec14f2829ca0f979d88b034ff21d008c50d5a7a70156e1125803091385bacd0#npm:5.8.1", {\
-          "packageLocation": "./.yarn/__virtual__/mongodb-virtual-ff2d9f702b/0/cache/mongodb-npm-5.8.1-d655990b24-da8fc05952.zip/node_modules/mongodb/",\
+        ["virtual:4b4f30f3a689557ce4d5338c8e2677d1d4fc0f368b1e3bbfd34248f234b5b89d5ec14f2829ca0f979d88b034ff21d008c50d5a7a70156e1125803091385bacd0#npm:6.0.0", {\
+          "packageLocation": "./.yarn/__virtual__/mongodb-virtual-194e31c05d/0/cache/mongodb-npm-6.0.0-7c1e74de91-0399d12977.zip/node_modules/mongodb/",\
           "packageDependencies": [\
-            ["mongodb", "virtual:4b4f30f3a689557ce4d5338c8e2677d1d4fc0f368b1e3bbfd34248f234b5b89d5ec14f2829ca0f979d88b034ff21d008c50d5a7a70156e1125803091385bacd0#npm:5.8.1"],\
+            ["mongodb", "virtual:4b4f30f3a689557ce4d5338c8e2677d1d4fc0f368b1e3bbfd34248f234b5b89d5ec14f2829ca0f979d88b034ff21d008c50d5a7a70156e1125803091385bacd0#npm:6.0.0"],\
             ["@aws-sdk/credential-providers", null],\
             ["@mongodb-js/saslprep", "npm:1.1.0"],\
             ["@mongodb-js/zstd", null],\
             ["@types/aws-sdk__credential-providers", null],\
+            ["@types/gcp-metadata", null],\
             ["@types/kerberos", null],\
             ["@types/mongodb-client-encryption", null],\
             ["@types/mongodb-js__zstd", null],\
             ["@types/snappy", null],\
-            ["bson", "npm:5.4.0"],\
+            ["@types/socks", null],\
+            ["bson", "npm:6.0.0"],\
+            ["gcp-metadata", null],\
             ["kerberos", null],\
             ["mongodb-client-encryption", null],\
             ["mongodb-connection-string-url", "npm:2.6.0"],\
             ["snappy", null],\
-            ["socks", "npm:2.7.1"]\
+            ["socks", null]\
           ],\
           "packagePeers": [\
             "@aws-sdk/credential-providers",\
             "@mongodb-js/zstd",\
             "@types/aws-sdk__credential-providers",\
+            "@types/gcp-metadata",\
             "@types/kerberos",\
             "@types/mongodb-client-encryption",\
             "@types/mongodb-js__zstd",\
             "@types/snappy",\
+            "@types/socks",\
+            "gcp-metadata",\
             "kerberos",\
             "mongodb-client-encryption",\
-            "snappy"\
+            "snappy",\
+            "socks"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2315,7 +2313,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mineflayer", "npm:4.14.0"],\
             ["mineflayer-auto-eat", "npm:3.3.6"],\
             ["mineflayer-pathfinder", "npm:2.4.4"],\
-            ["mongodb", "virtual:4b4f30f3a689557ce4d5338c8e2677d1d4fc0f368b1e3bbfd34248f234b5b89d5ec14f2829ca0f979d88b034ff21d008c50d5a7a70156e1125803091385bacd0#npm:5.8.1"],\
+            ["mongodb", "virtual:4b4f30f3a689557ce4d5338c8e2677d1d4fc0f368b1e3bbfd34248f234b5b89d5ec14f2829ca0f979d88b034ff21d008c50d5a7a70156e1125803091385bacd0#npm:6.0.0"],\
             ["prismarine-auth", "npm:2.2.0"],\
             ["prismarine-viewer", "npm:1.25.0"],\
             ["socket.io-client", "npm:4.7.2"],\
@@ -2801,17 +2799,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["socket.io-parser", "npm:4.2.4"],\
             ["@socket.io/component-emitter", "npm:3.1.0"],\
             ["debug", "virtual:352060d453a801a0fd16b073afb56a2607e33f96a5ff7faf9351853a737843ea6ad854442954d36ef1f89461751ed94f005ea67c746b39723d1da041a244f7d2#npm:4.3.4"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["socks", [\
-        ["npm:2.7.1", {\
-          "packageLocation": "./.yarn/cache/socks-npm-2.7.1-17f2b53052-259d9e3e8e.zip/node_modules/socks/",\
-          "packageDependencies": [\
-            ["socks", "npm:2.7.1"],\
-            ["ip", "npm:2.0.0"],\
-            ["smart-buffer", "npm:4.2.0"]\
           ],\
           "linkType": "HARD"\
         }]\
