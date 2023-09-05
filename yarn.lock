@@ -1360,17 +1360,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minecraft-data@npm:^3.0.0, minecraft-data@npm:^3.36.1, minecraft-data@npm:^3.37.0, minecraft-data@npm:^3.38.0, minecraft-data@npm:^3.5.1":
-  version: 3.42.1
-  resolution: "minecraft-data@npm:3.42.1"
-  checksum: 791f7dde0f24219ca3ffb9a1a6b68a20783d66d670dcc2590676d12f50e5535c61599ed44df2c3af66c2f2c0532216c8dfc7617a1f8ca4478f07e5602deedd89
-  languageName: node
-  linkType: hard
-
-"minecraft-data@npm:^3.44.0":
-  version: 3.44.0
-  resolution: "minecraft-data@npm:3.44.0"
-  checksum: d356b59b511d63ac1c93e12808de47a1b499c1b1195e8b3ce6f517048a9f94b4a22432aedd5447dabfd3be7849ac5641d4bdc6efcc5ae8090a8b25c9efef8504
+"minecraft-data@npm:^3.0.0, minecraft-data@npm:^3.36.1, minecraft-data@npm:^3.37.0, minecraft-data@npm:^3.38.0, minecraft-data@npm:^3.44.0, minecraft-data@npm:^3.5.1":
+  version: 3.45.0
+  resolution: "minecraft-data@npm:3.45.0"
+  checksum: 34c5fd3728eb912ed3a066a0d3fc38f4c031fc9b17f2635e10dde42ac570d6eed59ffe9d04d03890a63d5d18c97a2c34c94ba3ff483fc3432db3e015847702a6
   languageName: node
   linkType: hard
 
