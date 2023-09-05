@@ -374,10 +374,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bson@npm:^5.4.0":
-  version: 5.4.0
-  resolution: "bson@npm:5.4.0"
-  checksum: 1c07e3d09f139d414bd226bf7f4e9aaa7a726e0c9718c55b53bb23ffa2805cac8b66e4fa46b424c73a35c6e292ed5f7432df5c76ea5d08052642b2ac9e0399e3
+"bson@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "bson@npm:6.0.0"
+  checksum: 594ebbfcaef8487741405915977b5d38dcd6e36b08af54faf459a8e8d039d555a2db2bb422c8d25b065ac9b5bb9828bc8cc49aa145194f53f8352d355fd83a77
   languageName: node
   linkType: hard
 
@@ -1142,13 +1142,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ip@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "ip@npm:2.0.0"
-  checksum: cfcfac6b873b701996d71ec82a7dd27ba92450afdb421e356f44044ed688df04567344c36cbacea7d01b1c39a4c732dc012570ebe9bebfb06f27314bca625349
-  languageName: node
-  linkType: hard
-
 "ipaddr.js@npm:1.9.1":
   version: 1.9.1
   resolution: "ipaddr.js@npm:1.9.1"
@@ -1482,27 +1475,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mongodb@npm:^5.7.0":
-  version: 5.8.1
-  resolution: "mongodb@npm:5.8.1"
+"mongodb@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "mongodb@npm:6.0.0"
   dependencies:
     "@mongodb-js/saslprep": ^1.1.0
-    bson: ^5.4.0
+    bson: ^6.0.0
     mongodb-connection-string-url: ^2.6.0
-    socks: ^2.7.1
   peerDependencies:
     "@aws-sdk/credential-providers": ^3.188.0
-    "@mongodb-js/zstd": ^1.0.0
-    kerberos: ^1.0.0 || ^2.0.0
-    mongodb-client-encryption: ">=2.3.0 <3"
+    "@mongodb-js/zstd": ^1.1.0
+    gcp-metadata: ^5.2.0
+    kerberos: ^2.0.1
+    mongodb-client-encryption: ">=6.0.0 <7"
     snappy: ^7.2.2
-  dependenciesMeta:
-    "@mongodb-js/saslprep":
-      optional: true
+    socks: ^2.7.1
   peerDependenciesMeta:
     "@aws-sdk/credential-providers":
       optional: true
     "@mongodb-js/zstd":
+      optional: true
+    gcp-metadata:
       optional: true
     kerberos:
       optional: true
@@ -1510,7 +1503,9 @@ __metadata:
       optional: true
     snappy:
       optional: true
-  checksum: da8fc05952266f9b636000d74e6c8889306fc287922651526029a61ede3c75f793edb504a02c1f64fec9fea9aa17323bf95eb4902776778a1def5eba07b32b72
+    socks:
+      optional: true
+  checksum: 0399d1297795eb8b7bc20c2038085a6928fbd43931d831cd4ef00d8d63a55c8e867d5dfa36859fe69a86ae84fd36d9e5fb9eec1411d351cf653a82894c4751d0
   languageName: node
   linkType: hard
 
@@ -1857,7 +1852,7 @@ __metadata:
     mineflayer: ^4.8.1
     mineflayer-auto-eat: ^3.3.6
     mineflayer-pathfinder: ^2.4.4
-    mongodb: ^5.7.0
+    mongodb: ^6.0.0
     prismarine-auth: ^2.2.0
     prismarine-viewer: ^1.25.0
     socket.io-client: ^4.6.2
@@ -2228,7 +2223,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"smart-buffer@npm:^4.1.0, smart-buffer@npm:^4.2.0":
+"smart-buffer@npm:^4.1.0":
   version: 4.2.0
   resolution: "smart-buffer@npm:4.2.0"
   checksum: b5167a7142c1da704c0e3af85c402002b597081dd9575031a90b4f229ca5678e9a36e8a374f1814c8156a725d17008ae3bde63b92f9cfd132526379e580bec8b
@@ -2277,16 +2272,6 @@ __metadata:
     socket.io-adapter: ~2.5.2
     socket.io-parser: ~4.2.4
   checksum: 17f48c65627f6663384529072e33bff631eb496f6189a1325dd6775b2a50779b2acb36b6f57c9fc26f28e3ae109fb238d39167aebfbf96838a5fb7dd1b74c209
-  languageName: node
-  linkType: hard
-
-"socks@npm:^2.7.1":
-  version: 2.7.1
-  resolution: "socks@npm:2.7.1"
-  dependencies:
-    ip: ^2.0.0
-    smart-buffer: ^4.2.0
-  checksum: 259d9e3e8e1c9809a7f5c32238c3d4d2a36b39b83851d0f573bfde5f21c4b1288417ce1af06af1452569cd1eb0841169afd4998f0e04ba04656f6b7f0e46d748
   languageName: node
   linkType: hard
 
