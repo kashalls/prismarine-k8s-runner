@@ -38,7 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prismarine-viewer", "npm:1.25.0"],\
             ["socket.io-client", "npm:4.7.2"],\
             ["three", "npm:0.154.0"],\
-            ["uuid", "npm:9.0.0"]\
+            ["uuid", "npm:9.0.1"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -2294,7 +2294,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prismarine-viewer", "npm:1.25.0"],\
             ["socket.io-client", "npm:4.7.2"],\
             ["three", "npm:0.154.0"],\
-            ["uuid", "npm:9.0.0"]\
+            ["uuid", "npm:9.0.1"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -3007,10 +3007,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:9.0.0", {\
-          "packageLocation": "./.yarn/cache/uuid-npm-9.0.0-46c41e3e43-8dd2c83c43.zip/node_modules/uuid/",\
+        ["npm:9.0.1", {\
+          "packageLocation": "./.yarn/cache/uuid-npm-9.0.1-39a8442bc6-39931f6da7.zip/node_modules/uuid/",\
           "packageDependencies": [\
-            ["uuid", "npm:9.0.0"]\
+            ["uuid", "npm:9.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\
