@@ -37,7 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prismarine-auth", "npm:2.2.0"],\
             ["prismarine-viewer", "npm:1.25.0"],\
             ["socket.io-client", "npm:4.7.2"],\
-            ["three", "npm:0.154.0"],\
+            ["three", "npm:0.162.0"],\
             ["uuid", "npm:9.0.0"]\
           ],\
           "linkType": "SOFT"\
@@ -2293,7 +2293,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prismarine-auth", "npm:2.2.0"],\
             ["prismarine-viewer", "npm:1.25.0"],\
             ["socket.io-client", "npm:4.7.2"],\
-            ["three", "npm:0.154.0"],\
+            ["three", "npm:0.162.0"],\
             ["uuid", "npm:9.0.0"]\
           ],\
           "linkType": "SOFT"\
@@ -2854,10 +2854,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:0.154.0", {\
-          "packageLocation": "./.yarn/cache/three-npm-0.154.0-639fc85ebc-90ad3cafef.zip/node_modules/three/",\
+        ["npm:0.162.0", {\
+          "packageLocation": "./.yarn/cache/three-npm-0.162.0-157cb921e0-f3ba4d518f.zip/node_modules/three/",\
           "packageDependencies": [\
-            ["three", "npm:0.154.0"]\
+            ["three", "npm:0.162.0"]\
           ],\
           "linkType": "HARD"\
         }]\
