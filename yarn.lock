@@ -1878,7 +1878,7 @@ __metadata:
     prismarine-auth: ^2.2.0
     prismarine-viewer: ^1.25.0
     socket.io-client: ^4.6.2
-    three: ^0.154.0
+    three: ^0.162.0
     uuid: ^9.0.0
   languageName: unknown
   linkType: soft
@@ -2377,10 +2377,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"three@npm:^0.154.0":
-  version: 0.154.0
-  resolution: "three@npm:0.154.0"
-  checksum: 90ad3cafef8b866641366977ab7189d56f7352c6cdc014cbab946544e42782ec4ea7e56b959b43590433a0fcdc4bd8f8029b18a75074ba10005182c5a73bcc88
+"three@npm:^0.162.0":
+  version: 0.162.0
+  resolution: "three@npm:0.162.0"
+  checksum: f3ba4d518f7cb209b6e4f8818177c1230014fc1b3dcd66ab113a9babf8e2b522645a1eb144dfc0900bf194e8890bc5d04f358dd4a7f06ee8aa44db56224f88fc
   languageName: node
   linkType: hard
 
