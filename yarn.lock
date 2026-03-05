@@ -12,21 +12,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@azure/msal-common@npm:13.0.0":
-  version: 13.0.0
-  resolution: "@azure/msal-common@npm:13.0.0"
-  checksum: 89f56f9fbf0edffa6023d46c6970dd37a9ad571b7d2952fdef41950ec2f3b4b3fd22d9841e2caaf52619ad97ab415ed22c30797cdb896f459eb665d3d97f778a
+"@azure/msal-common@npm:14.16.1":
+  version: 14.16.1
+  resolution: "@azure/msal-common@npm:14.16.1"
+  checksum: 6c39754f5ac38bcc4c8f11a8254779bd5a76434e298367a3f59758c1ab93d5d88c093a386935e707e2a4c55e6d1394980f527b6f6aea0cfc6102cf01b79c74a3
   languageName: node
   linkType: hard
 
-"@azure/msal-node@npm:^1.1.0":
-  version: 1.17.2
-  resolution: "@azure/msal-node@npm:1.17.2"
+"@azure/msal-node@npm:^2.0.2":
+  version: 2.16.3
+  resolution: "@azure/msal-node@npm:2.16.3"
   dependencies:
-    "@azure/msal-common": 13.0.0
+    "@azure/msal-common": 14.16.1
     jsonwebtoken: ^9.0.0
     uuid: ^8.3.0
-  checksum: 5ac809dae6b02ab7de2aafb85733501ba6c3268f1d9371bc857215dad9d47e4f6e10b3e58ebda49504b375c96934761e9734acc241d3bc34d3b4cdeaabdf102e
+  checksum: a8e2b2054836105e1945bcc687b0366c1009afa2d43af805da563b454a4cdf6db02f16d72d43f3b9ff4bcc9a003b21b83fa8a7c4fb8eabb1351e523cfc50be0f
   languageName: node
   linkType: hard
 
@@ -1179,13 +1179,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jose@npm:^4.1.4":
-  version: 4.14.4
-  resolution: "jose@npm:4.14.4"
-  checksum: 2d820a91a8fd97c05d8bc8eedc373b944a0cd7f5fe41063086da233d0473c73fb523912a9f026ea870782bd221f4a515f441a2d3af4de48c6f2c76dac5082377
-  languageName: node
-  linkType: hard
-
 "js-yaml@npm:^4.1.0":
   version: 4.1.0
   resolution: "js-yaml@npm:4.1.0"
@@ -1714,17 +1707,15 @@ __metadata:
   linkType: hard
 
 "prismarine-auth@npm:^2.2.0":
-  version: 2.2.0
-  resolution: "prismarine-auth@npm:2.2.0"
+  version: 2.7.0
+  resolution: "prismarine-auth@npm:2.7.0"
   dependencies:
-    "@azure/msal-node": ^1.1.0
+    "@azure/msal-node": ^2.0.2
     "@xboxreplay/xboxlive-auth": ^3.3.3
     debug: ^4.3.3
-    jose: ^4.1.4
-    node-fetch: ^2.6.1
     smart-buffer: ^4.1.0
     uuid-1345: ^1.0.2
-  checksum: f4eb72421dee7e7e1aceb58a6ff7ca1d81edb614affc6a36e00740ea6cb667a7f59da0fa8ea41527a40480be9421df1d60300c9d0626a83a4e80c3604b02f443
+  checksum: f819a911fec8a8beac7ed7c291b094376762355d3a4e5a410938e2cc68b13bcd446d80275c5bc97cad20bfbb0be822f6194baa0ba1e2ad3d48de2a4d2fa95e1b
   languageName: node
   linkType: hard
 
