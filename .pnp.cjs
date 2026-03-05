@@ -34,7 +34,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mineflayer-auto-eat", "npm:3.3.6"],\
             ["mineflayer-pathfinder", "npm:2.4.4"],\
             ["mongodb", "virtual:4b4f30f3a689557ce4d5338c8e2677d1d4fc0f368b1e3bbfd34248f234b5b89d5ec14f2829ca0f979d88b034ff21d008c50d5a7a70156e1125803091385bacd0#npm:6.0.0"],\
-            ["prismarine-auth", "npm:2.2.0"],\
+            ["prismarine-auth", "npm:2.7.0"],\
             ["prismarine-viewer", "npm:1.25.0"],\
             ["socket.io-client", "npm:4.7.2"],\
             ["three", "npm:0.154.0"],\
@@ -53,20 +53,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@azure/msal-common", [\
-        ["npm:13.0.0", {\
-          "packageLocation": "./.yarn/cache/@azure-msal-common-npm-13.0.0-5d94df3115-89f56f9fbf.zip/node_modules/@azure/msal-common/",\
+        ["npm:14.16.1", {\
+          "packageLocation": "./.yarn/cache/@azure-msal-common-npm-14.16.1-5b4899e621-6c39754f5a.zip/node_modules/@azure/msal-common/",\
           "packageDependencies": [\
-            ["@azure/msal-common", "npm:13.0.0"]\
+            ["@azure/msal-common", "npm:14.16.1"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@azure/msal-node", [\
-        ["npm:1.17.2", {\
-          "packageLocation": "./.yarn/cache/@azure-msal-node-npm-1.17.2-523ab803db-5ac809dae6.zip/node_modules/@azure/msal-node/",\
+        ["npm:2.16.3", {\
+          "packageLocation": "./.yarn/cache/@azure-msal-node-npm-2.16.3-6df2e24acd-a8e2b20548.zip/node_modules/@azure/msal-node/",\
           "packageDependencies": [\
-            ["@azure/msal-node", "npm:1.17.2"],\
-            ["@azure/msal-common", "npm:13.0.0"],\
+            ["@azure/msal-node", "npm:2.16.3"],\
+            ["@azure/msal-common", "npm:14.16.1"],\
             ["jsonwebtoken", "npm:9.0.0"],\
             ["uuid", "npm:8.3.2"]\
           ],\
@@ -1462,15 +1462,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["jose", [\
-        ["npm:4.14.4", {\
-          "packageLocation": "./.yarn/cache/jose-npm-4.14.4-8255fd76fa-2d820a91a8.zip/node_modules/jose/",\
-          "packageDependencies": [\
-            ["jose", "npm:4.14.4"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["js-yaml", [\
         ["npm:4.1.0", {\
           "packageLocation": "./.yarn/cache/js-yaml-npm-4.1.0-3606f32312-c7830dfd45.zip/node_modules/js-yaml/",\
@@ -1707,9 +1698,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lodash.merge", "npm:4.6.2"],\
             ["minecraft-data", "npm:3.45.0"],\
             ["minecraft-folder-path", "npm:1.2.0"],\
-            ["node-fetch", "virtual:e03b978163efd58911c17fd351e34aacae4e4c6a093663981b6916ec945b00b5e8342abae1965d91dc58020b658b5f1123d3147f8f6892fbce489d2f7ee1c14b#npm:2.6.11"],\
+            ["node-fetch", "virtual:cb1c59b079ad5e25e0d43582f729fadeda0ccc6178d3f6e79efcda272aea7dd7b895083ca038c894839f0d219c1d55e31a945f8f33430f835255c893017e6d70#npm:2.6.11"],\
             ["node-rsa", "npm:0.4.2"],\
-            ["prismarine-auth", "npm:2.2.0"],\
+            ["prismarine-auth", "npm:2.7.0"],\
             ["prismarine-nbt", "npm:2.2.1"],\
             ["prismarine-realms", "npm:1.3.2"],\
             ["protodef", "npm:1.15.0"],\
@@ -1922,10 +1913,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:e03b978163efd58911c17fd351e34aacae4e4c6a093663981b6916ec945b00b5e8342abae1965d91dc58020b658b5f1123d3147f8f6892fbce489d2f7ee1c14b#npm:2.6.11", {\
-          "packageLocation": "./.yarn/__virtual__/node-fetch-virtual-ecf4833ce9/0/cache/node-fetch-npm-2.6.11-160e4174c3-249d0666a9.zip/node_modules/node-fetch/",\
+        ["virtual:cb1c59b079ad5e25e0d43582f729fadeda0ccc6178d3f6e79efcda272aea7dd7b895083ca038c894839f0d219c1d55e31a945f8f33430f835255c893017e6d70#npm:2.6.11", {\
+          "packageLocation": "./.yarn/__virtual__/node-fetch-virtual-e8b0b1c0b0/0/cache/node-fetch-npm-2.6.11-160e4174c3-249d0666a9.zip/node_modules/node-fetch/",\
           "packageDependencies": [\
-            ["node-fetch", "virtual:e03b978163efd58911c17fd351e34aacae4e4c6a093663981b6916ec945b00b5e8342abae1965d91dc58020b658b5f1123d3147f8f6892fbce489d2f7ee1c14b#npm:2.6.11"],\
+            ["node-fetch", "virtual:cb1c59b079ad5e25e0d43582f729fadeda0ccc6178d3f6e79efcda272aea7dd7b895083ca038c894839f0d219c1d55e31a945f8f33430f835255c893017e6d70#npm:2.6.11"],\
             ["@types/encoding", null],\
             ["encoding", null],\
             ["whatwg-url", "npm:5.0.0"]\
@@ -2094,15 +2085,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["prismarine-auth", [\
-        ["npm:2.2.0", {\
-          "packageLocation": "./.yarn/cache/prismarine-auth-npm-2.2.0-e03b978163-f4eb72421d.zip/node_modules/prismarine-auth/",\
+        ["npm:2.7.0", {\
+          "packageLocation": "./.yarn/cache/prismarine-auth-npm-2.7.0-41c25f2817-f819a911fe.zip/node_modules/prismarine-auth/",\
           "packageDependencies": [\
-            ["prismarine-auth", "npm:2.2.0"],\
-            ["@azure/msal-node", "npm:1.17.2"],\
+            ["prismarine-auth", "npm:2.7.0"],\
+            ["@azure/msal-node", "npm:2.16.3"],\
             ["@xboxreplay/xboxlive-auth", "npm:3.3.3"],\
             ["debug", "virtual:352060d453a801a0fd16b073afb56a2607e33f96a5ff7faf9351853a737843ea6ad854442954d36ef1f89461751ed94f005ea67c746b39723d1da041a244f7d2#npm:4.3.4"],\
-            ["jose", "npm:4.14.4"],\
-            ["node-fetch", "virtual:e03b978163efd58911c17fd351e34aacae4e4c6a093663981b6916ec945b00b5e8342abae1965d91dc58020b658b5f1123d3147f8f6892fbce489d2f7ee1c14b#npm:2.6.11"],\
             ["smart-buffer", "npm:4.2.0"],\
             ["uuid-1345", "npm:1.0.2"]\
           ],\
@@ -2290,7 +2279,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mineflayer-auto-eat", "npm:3.3.6"],\
             ["mineflayer-pathfinder", "npm:2.4.4"],\
             ["mongodb", "virtual:4b4f30f3a689557ce4d5338c8e2677d1d4fc0f368b1e3bbfd34248f234b5b89d5ec14f2829ca0f979d88b034ff21d008c50d5a7a70156e1125803091385bacd0#npm:6.0.0"],\
-            ["prismarine-auth", "npm:2.2.0"],\
+            ["prismarine-auth", "npm:2.7.0"],\
             ["prismarine-viewer", "npm:1.25.0"],\
             ["socket.io-client", "npm:4.7.2"],\
             ["three", "npm:0.154.0"],\
@@ -2337,7 +2326,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["prismarine-realms", "npm:1.3.2"],\
             ["debug", "virtual:352060d453a801a0fd16b073afb56a2607e33f96a5ff7faf9351853a737843ea6ad854442954d36ef1f89461751ed94f005ea67c746b39723d1da041a244f7d2#npm:4.3.4"],\
-            ["node-fetch", "virtual:e03b978163efd58911c17fd351e34aacae4e4c6a093663981b6916ec945b00b5e8342abae1965d91dc58020b658b5f1123d3147f8f6892fbce489d2f7ee1c14b#npm:2.6.11"]\
+            ["node-fetch", "virtual:cb1c59b079ad5e25e0d43582f729fadeda0ccc6178d3f6e79efcda272aea7dd7b895083ca038c894839f0d219c1d55e31a945f8f33430f835255c893017e6d70#npm:2.6.11"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3156,7 +3145,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/yggdrasil-npm-1.7.0-aec8774ee1-911c22cd21.zip/node_modules/yggdrasil/",\
           "packageDependencies": [\
             ["yggdrasil", "npm:1.7.0"],\
-            ["node-fetch", "virtual:e03b978163efd58911c17fd351e34aacae4e4c6a093663981b6916ec945b00b5e8342abae1965d91dc58020b658b5f1123d3147f8f6892fbce489d2f7ee1c14b#npm:2.6.11"],\
+            ["node-fetch", "virtual:cb1c59b079ad5e25e0d43582f729fadeda0ccc6178d3f6e79efcda272aea7dd7b895083ca038c894839f0d219c1d55e31a945f8f33430f835255c893017e6d70#npm:2.6.11"],\
             ["uuid", "npm:8.3.2"]\
           ],\
           "linkType": "HARD"\
