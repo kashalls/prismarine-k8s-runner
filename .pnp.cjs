@@ -34,7 +34,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mineflayer-auto-eat", "npm:3.3.6"],\
             ["mineflayer-pathfinder", "npm:2.4.4"],\
             ["mongodb", "virtual:4b4f30f3a689557ce4d5338c8e2677d1d4fc0f368b1e3bbfd34248f234b5b89d5ec14f2829ca0f979d88b034ff21d008c50d5a7a70156e1125803091385bacd0#npm:6.0.0"],\
-            ["prismarine-auth", "npm:2.2.0"],\
+            ["prismarine-auth", "npm:3.1.1"],\
             ["prismarine-viewer", "npm:1.25.0"],\
             ["socket.io-client", "npm:4.7.2"],\
             ["three", "npm:0.154.0"],\
@@ -59,6 +59,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@azure/msal-common", "npm:13.0.0"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:14.16.1", {\
+          "packageLocation": "./.yarn/cache/@azure-msal-common-npm-14.16.1-5b4899e621-6c39754f5a.zip/node_modules/@azure/msal-common/",\
+          "packageDependencies": [\
+            ["@azure/msal-common", "npm:14.16.1"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["@azure/msal-node", [\
@@ -67,6 +74,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@azure/msal-node", "npm:1.17.2"],\
             ["@azure/msal-common", "npm:13.0.0"],\
+            ["jsonwebtoken", "npm:9.0.0"],\
+            ["uuid", "npm:8.3.2"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:2.16.3", {\
+          "packageLocation": "./.yarn/cache/@azure-msal-node-npm-2.16.3-6df2e24acd-a8e2b20548.zip/node_modules/@azure/msal-node/",\
+          "packageDependencies": [\
+            ["@azure/msal-node", "npm:2.16.3"],\
+            ["@azure/msal-common", "npm:14.16.1"],\
             ["jsonwebtoken", "npm:9.0.0"],\
             ["uuid", "npm:8.3.2"]\
           ],\
@@ -303,6 +320,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@xboxreplay/xboxlive-auth", "npm:3.3.3"],\
             ["@xboxreplay/errors", "npm:0.1.0"],\
             ["axios", "npm:0.21.4"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:5.1.0", {\
+          "packageLocation": "./.yarn/cache/@xboxreplay-xboxlive-auth-npm-5.1.0-bc79503ab1-70d185f3db.zip/node_modules/@xboxreplay/xboxlive-auth/",\
+          "packageDependencies": [\
+            ["@xboxreplay/xboxlive-auth", "npm:5.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2107,6 +2131,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["uuid-1345", "npm:1.0.2"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:3.1.1", {\
+          "packageLocation": "./.yarn/cache/prismarine-auth-npm-3.1.1-23a81cf856-5fbcbfe82f.zip/node_modules/prismarine-auth/",\
+          "packageDependencies": [\
+            ["prismarine-auth", "npm:3.1.1"],\
+            ["@azure/msal-node", "npm:2.16.3"],\
+            ["@xboxreplay/xboxlive-auth", "npm:5.1.0"],\
+            ["debug", "virtual:352060d453a801a0fd16b073afb56a2607e33f96a5ff7faf9351853a737843ea6ad854442954d36ef1f89461751ed94f005ea67c746b39723d1da041a244f7d2#npm:4.3.4"],\
+            ["smart-buffer", "npm:4.2.0"],\
+            ["uuid-1345", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["prismarine-biome", [\
@@ -2290,7 +2326,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mineflayer-auto-eat", "npm:3.3.6"],\
             ["mineflayer-pathfinder", "npm:2.4.4"],\
             ["mongodb", "virtual:4b4f30f3a689557ce4d5338c8e2677d1d4fc0f368b1e3bbfd34248f234b5b89d5ec14f2829ca0f979d88b034ff21d008c50d5a7a70156e1125803091385bacd0#npm:6.0.0"],\
-            ["prismarine-auth", "npm:2.2.0"],\
+            ["prismarine-auth", "npm:3.1.1"],\
             ["prismarine-viewer", "npm:1.25.0"],\
             ["socket.io-client", "npm:4.7.2"],\
             ["three", "npm:0.154.0"],\
